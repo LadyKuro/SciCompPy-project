@@ -15,8 +15,8 @@ Celem jest identyfikacja faz topologicznych na wykresie fazowym "phase_diagram.p
 
 ## Lista plików i jak ich używać
 > [!NOTE]
-> Wymagane jest posiadanie zainstalowanych bilbiotek 'kwant' oraz 'h5py'.
+> Wymagane jest posiadanie zainstalowanych bilbiotek `kwant` oraz `h5py`.
 
 
-system_init.py - 
+`system_init.py` - 
 
