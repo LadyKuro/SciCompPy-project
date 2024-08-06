@@ -14,7 +14,7 @@ Celem jest identyfikacja faz topologicznych na wykresie fazowym "phase_diagram.p
 [^2]: M Wimmer et al 2011 New J. Phys. 13 053016
 
 Przestrzeń parametrów w diagramie fazowym rozpinają energia Fermiego, $$E_F$$, oraz parametr porządku nadprzewodnictwa $$\Delta_0$$. Poniżej 
-załączony jest przykładowy wynik działania programu `conductance.py`
+załączony jest przykładowy wynik działania programu `conductance.py` (wykres po lewej).
 
 <img src="https://github.com/user-attachments/assets/0805cf75-602d-4d5c-ba14-83ce5705741e" width="400">[^2]
 
