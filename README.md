@@ -15,8 +15,9 @@ Celem jest identyfikacja faz topologicznych na wykresie fazowym "phase_diagram.p
 
 ## Lista plików i jak ich używać
 > [!NOTE]
-> Wymagane jest posiadanie zainstalowanych bilbiotek `kwant` oraz `h5py`.
+> Wymagane jest posiadanie zainstalowanych bilbiotek `kwant` oraz `h5py`. W tym projekcie znajduje się plik ze środowiskiem conda `topowire_env.yml` posiadającym wszystkie potrzebne pakiety.
 
 
-`system_init.py` - 
+`system_init.py` - ten plik tworzy system o zadanym Hamiltonianie do zmiennnej `syst` oraz słownik `default` z parametrami podawanymi do tego systemu 
+
 
