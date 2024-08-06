@@ -9,14 +9,14 @@ Obliczanie konduktancji półprzewodnika ze wzbudzonym naprzewodnictwem w zewnę
 
 Celem jest identyfikacja faz topologicznych na wykresie fazowym "phase_diagram.pdf". Faza topologicznie nietrywialna będzie posiadać niezerową konduktancję w zerowym punkcie różnicy potencjału.
 
-<img src="https://github.com/user-attachments/assets/fda7bad9-653f-4369-b97d-5b7751b6641b" width="300">[^2]
+<img src="https://github.com/user-attachments/assets/fda7bad9-653f-4369-b97d-5b7751b6641b" width="2700">[^2]
 
 [^2]: M Wimmer et al 2011 New J. Phys. 13 053016
 
 Przestrzeń parametrów w diagramie fazowym rozpinają energia Fermiego, $$E_F$$, oraz parametr porządku nadprzewodnictwa $$\Delta_0$$. Poniżej 
 załączony jest przykładowy wynik działania programu `conductance.py`
 
-<img src="https://github.com/user-attachments/assets/0805cf75-602d-4d5c-ba14-83ce5705741e" width="300">[^2]
+<img src="https://github.com/user-attachments/assets/0805cf75-602d-4d5c-ba14-83ce5705741e" width="400">[^2]
 
 ## Lista plików i jak ich używać
 > [!NOTE]
