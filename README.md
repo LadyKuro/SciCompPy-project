@@ -13,9 +13,10 @@ Celem jest identyfikacja faz topologicznych na wykresie fazowym "phase_diagram.p
 
 [^2]: M Wimmer et al 2011 New J. Phys. 13 053016
 
-## Lista plików i jak je używać
+## Lista plików i jak ich używać
+> [!NOTE]
+> Wymagane jest posiadanie zainstalowanych bilbiotek 'kwant' oraz 'h5py'.
 
 
 system_init.py - 
 
-## Lalala
