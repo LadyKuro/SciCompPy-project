@@ -49,9 +49,9 @@ ___
 
 ___
 
-`topowire_env.yml` - środowisko conda 
+`topowire_env.yml` - środowisko conda projektu
 
-usage: 
+tworzenie oraz aktywowanie środowiska z pliku: 
  
  `$ conda env create -f topowire_env.yml`
  
