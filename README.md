@@ -25,6 +25,8 @@ załączony jest przykładowy wynik działania programu `conductance.py` (wykres
 
 `system_init.py` - ten plik tworzy system o zadanym Hamiltonianie do zmiennnej `syst` oraz słownik `default` z parametrami podawanymi do tego systemu 
 
+___
+
 `conductance.py` - główny skrypt projektu. Oblicza konduktancję dla określonych parametrów energii fermiego i nadprzewodnictwa oraz zapisuje wyniki do pliku hdf5 ALBO odczytuje wyniki z pliku i rysuje ich wykresy. Używa instancji `syst` oraz słownika parametrów `default` zaimporotwanych ze skryptu `system_init.py`.
 
 usage: conductance.py [-h] [-p PLOT] [-f FILE]
