@@ -36,10 +36,10 @@ def andreev_conductance(s):
     return N_electrons -trans_ee.real + trans_he.real
 
 
-nvolts = 50
-FerE = np.array([5, 18.5, 42, 74.5, 116.5])
-Darr = np.array([0.5,3])
-Gs = []
+nvolts = 50    #number of points in the Voltage array
+FerE = np.array([5, 18.5, 42, 74.5, 116.5])    # array of Fermi Energy points
+Darr = np.array([0.5,3])     # array of superconducting gap parameter points
+Gs = []   # empty list for the conductance results
 
 # Calculate the conductance
 if not args.plot:
