@@ -43,6 +43,8 @@ options:
   
 `conductance.h5` - plik hdf5 z wynikami konduktancji dla parametrów energii fermiego [5, 18.5, 42, 74.5, 116.5] oraz parametru nadprzewodnictwa [0.5, 3.0]
 
-`topo_env.yml` - środowisko conda 
+`topowire_env.yml` - środowisko conda 
 
-usage: `
+usage: 
+  `conda env create -f topowire_env.yml.yml`
+  `conda activate topo_env`
