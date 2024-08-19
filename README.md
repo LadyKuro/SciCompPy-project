@@ -42,8 +42,12 @@ options:
   -p PLOT, --plot PLOT  Just plot the result from hdf5 files. (default: False)
   
   -f FILE, --file FILE  HDF5 file to read. (default: conductance.h5)
-  
+ 
+___
+ 
 `conductance.h5` - plik hdf5 z wynikami konduktancji dla parametrów energii fermiego [5, 18.5, 42, 74.5, 116.5] oraz parametru nadprzewodnictwa [0.5, 3.0]
+
+___
 
 `topowire_env.yml` - środowisko conda 
 
