@@ -41,3 +41,8 @@ options:
   
   -f FILE, --file FILE  HDF5 file to read. (default: conductance.h5)
   
+`conductance.h5` - plik hdf5 z wynikami konduktancji dla parametrów energii fermiego [5, 18.5, 42, 74.5, 116.5] oraz parametru nadprzewodnictwa [0.5, 3.0]
+
+`topo_env.yml` - środowisko conda 
+
+usage: `
