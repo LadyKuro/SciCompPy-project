@@ -47,6 +47,6 @@ options:
 
 usage: 
  
- `$ conda env create -f topowire_env.yml.yml`
+ `$ conda env create -f topowire_env.yml`
  
   `$ conda activate topo_env`
