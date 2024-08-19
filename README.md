@@ -36,6 +36,8 @@ Calculate conductance and save to hdf5 or just plot from files.
 options:
 
   -h, --help            show this help message and exit
+  
   -p PLOT, --plot PLOT  Just plot the result from hdf5 files. (default: False)
+  
   -f FILE, --file FILE  HDF5 file to read. (default: conductance.h5)
   
