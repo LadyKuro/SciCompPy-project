@@ -23,6 +23,8 @@ załączony jest przykładowy wynik działania programu `conductance.py` (wykres
 > Wymagane jest posiadanie zainstalowanych bilbiotek `kwant` oraz `h5py`. W tym projekcie znajduje się plik ze środowiskiem conda `topowire_env.yml` posiadającym wszystkie potrzebne pakiety.
 
 
+___
+
 `system_init.py` - ten plik tworzy system o zadanym Hamiltonianie do zmiennnej `syst` oraz słownik `default` z parametrami podawanymi do tego systemu 
 
 ___
