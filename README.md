@@ -12,9 +12,10 @@ Celem jest identyfikacja faz topologicznych na wykresie fazowym "phase_diagram.p
 <img src="https://github.com/user-attachments/assets/fda7bad9-653f-4369-b97d-5b7751b6641b" width="270">[^2]
 
 [^2]: M Wimmer et al 2011 New J. Phys. 13 053016
+
 Konduktancja obliczana jest ze wzoru
 
-![Screenshot from 2024-09-02 10-13-39](https://github.com/user-attachments/assets/c68d2ee0-9b24-4288-8f51-12923a97519b)
+<img src="https://github.com/user-attachments/assets/c68d2ee0-9b24-4288-8f51-12923a97519b" width="150">
 
 gdzie N to liczba dostępnych kanałów elektronowych, $$R_{ee}$$ to współczynnik odbicia elektron-elektron oraz $$R_{he} to współczynnik odbicia elektron-dziura.
 
