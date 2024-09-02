@@ -17,7 +17,7 @@ Konduktancja obliczana jest ze wzoru
 
 <img src="https://github.com/user-attachments/assets/c68d2ee0-9b24-4288-8f51-12923a97519b" width="150">
 
-gdzie N to liczba dostępnych kanałów elektronowych, $$R_{ee}$$ to współczynnik odbicia elektron-elektron oraz $$R_{he} to współczynnik odbicia elektron-dziura.
+gdzie N to liczba dostępnych kanałów elektronowych, $$R_{ee}$$ to współczynnik odbicia elektron-elektron oraz $$R_{he}$$ to współczynnik odbicia elektron-dziura.
 
 Przestrzeń parametrów w diagramie fazowym rozpinają energia Fermiego, $$E_F$$, oraz parametr porządku nadprzewodnictwa $$\Delta_0$$. Poniżej 
 załączony jest przykładowy wynik działania programu `conductance.py` (wykres po lewej).
