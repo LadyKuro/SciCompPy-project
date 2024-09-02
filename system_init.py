@@ -1,11 +1,23 @@
 import kwant
 import kwant.continuum
 import numpy as np
-import supp_functions as sf
+
 
 W = 1.0
 L = 5.0
 
+def mx_homog(m0, theta, phi):
+    """" The x component of the magnetization"""
+    return m0*np.sin(theta*np.pi)*np.cos(phi*np.pi)
+    
+def my_homog(m0, theta, phi):
+    """" The y component of the magnetization"""
+    return m0*np.sin(theta*np.pi)*np.sin(phi*np.pi)
+    
+def mz_homog(m0, theta, phi):
+    """" The z component of the magnetization"""
+    return m0*np.cos(theta*np.pi)
+   
 hamiltonian = """
    ( 0.5 * k_x**2 + 0.5 * k_z**2 + V(x,z,omega_x,omega_y,V0,l_q) -E_F) * kron(sigma_z, sigma_0)
 """
@@ -72,4 +84,4 @@ def Vprof(x, z, omega_x, omega_y, V0, l_q):
 
 default = dict(E_F=117.5, Delta0=1.0, m0=2.0, theta=0.5, phi=0.0, 
                omega_x=15, omega_y=25, V0=10, l_q=0.2,
-               V=Vprof, m_x=sf.mx_homog, m_y=sf.my_homog, m_z=sf.mz_homog)
+               V=Vprof, m_x=mx_homog, m_y=my_homog, m_z=mz_homog)
