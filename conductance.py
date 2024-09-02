@@ -59,7 +59,7 @@ if not args.plot:
         Gsarr = np.array(Gs[-1]) 
         
 # Save the data
-    with h5py.File('conductance.h5', 'w') as f:
+    with h5py.File(args.file, 'w') as f:
         for i, ferE in enumerate(FerE):
             f.create_group(str(ferE))
             for j, D0 in enumerate(Darr):
