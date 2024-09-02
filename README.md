@@ -26,7 +26,7 @@ załączony jest przykładowy wynik działania programu `conductance.py` (wykres
 
 ## Lista plików i jak ich używać
 > [!NOTE]
-> Wymagane jest posiadanie zainstalowanych bilbiotek `kwant` oraz `h5py`. W tym projekcie znajduje się plik ze środowiskiem conda `topowire_env.yml` posiadającym wszystkie potrzebne pakiety.
+> Wymagane jest posiadanie zainstalowanych bilbiotek `numpy`, `matplotlib`, `kwant` oraz `h5py`. W tym projekcie znajduje się plik ze środowiskiem conda `topowire_env.yml` posiadającym wszystkie potrzebne pakiety.
 
 ___
 
